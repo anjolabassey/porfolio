@@ -1,13 +1,17 @@
 
 header {
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/header.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/header.jpg);
     color:white;
     background-size: cover;
     background-position: center;
     
 
 } 
+
+#title {
+    font-family: 'Lobster Two', cursive; 
+}
 /* .main-nav {
     position: fixed;
 } */
@@ -16,6 +20,13 @@ header {
     font-size: 2em;
     margin-top: 10px;
     font-family: 'Lato', sans-serif;
+}
+
+#break {
+    width: 800px;
+    height: 5px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -40,7 +51,7 @@ header {
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-    font-family: 'Lobster Two', cursive;    
+       
 }
 
 .btn {
@@ -52,13 +63,10 @@ header {
     font-size: 15px;
 }
 
-.main {
+/* .main {
     padding: 0;
-}
+} */
 
-#title {
-    text-align: center;
-}
 #about {
     padding: 50px;
     text-align: center;
@@ -68,23 +76,31 @@ header {
 }
 
 #portfolio {
-    padding: 10px;
+    
+    text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
 .project {
-    padding-left: 15%;
+    padding-left: 27%;
     margin-top: 20px;
+    
 }
 #contact {
-    background-color: lightgrey;
-    height: 100px;
+    height: 200px;
+    margin-top: 50px;
     padding: 10px;
     font-family: 'Lato', sans-serif;
     text-align: center;
 }
-
-.fab {
-    font-size: 10em;
-    color: tomato;
+.icons {
+    padding: 10px;
+    margin: 20px;
 }
+footer {
+    bottom: 0;
+    text-align: center;
+}
+
+
+
